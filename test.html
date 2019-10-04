@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+     let math;
+     let english;
+     let literature;
+     math = Number (prompt("nhap diem math"));
+     english = Number (prompt("nhap diem english"));
+     literature= Number (prompt("nhap diem literature"));
+
+      ave = (math*2 + literature+ english*2)/5;
+      document.write("ave" + "<br>");
+     if (ave<5){
+         document.write( "hoc sinh khong dat");
+     }else if (ave<7.5){
+         document.write("hoc sinh dat");
+
+     }else  if (ave<8.5){
+         document.write("hoc sinh kha");
+     }else {
+         document.write("con lai la hoc sinh tot");
+         document.write( "ave:" +ave);
+
+     }
+
+
+
+
+</script>
+</body>
+</html>
